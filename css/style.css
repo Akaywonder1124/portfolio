@@ -1,0 +1,9 @@
+:root {
+  --primary: #64ffda;
+  --seconday: #a8b2d1;
+  --light: #d9d9d9;
+  --dark: #020c1b;
+}
+.nav-link {
+  color: var(--light);
+}
