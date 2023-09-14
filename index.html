@@ -1,67 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/bootstrap.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>Document</title>
-  </head>
-  <body class="bg-dark">
-    <section class="--navbar bg-dark">
-      <div class="container-xxl p-5">
-        <nav class="navbar navbar-expand-lg">
-          <div class="container-fluid">
-            <a class="navbar-brand text-primary" href="#">AKAY</a>
 
-            <div class="d-flex">
-              <!-- Menu-Hamburger -->
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon btn-outline-success"></span>
-              </button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/bootstrap.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
-              <!-- Menu Item -->
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Experience</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Work</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#"
-                      ><button class="btn btn-outline-success" type="button">
-                        Resume
-                      </button></a
-                    >
-                  </li>
-                </ul>
-              </div>
+  <title>Document</title>
+</head>
+
+<body class="bg-dark">
+  <section class="--navbar bg-dark">
+    <div class="container-xxl p-3">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand text-primary" href="#">AKAY</a>
+
+          <div class="d-flex">
+            <!-- Menu-Hamburger -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon btn-outline-success"></span>
+            </button>
+
+            <!-- Menu Item -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Experience</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#"><button class="btn btn-outline-success" type="button">
+                      Resume
+                    </button></a>
+                </li>
+              </ul>
             </div>
           </div>
-        </nav>
-      </div>
-    </section>
+        </div>
+      </nav>
+    </div>
+  </section>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <section class="content">
+    <div class="container-xxl">
+      <div class="container-sm content-box">
+        <h1 class="heading text-light">Abdulakeem Asiru.</h1>
+        <h1 class="sub-heading text-secondary">
+          I create solutions from coding.
+        </h1>
+        <p class="--lead text-secondary pt-3">
+          I'm a software engineer specializing in building (and occasionally
+          designing) exceptional digital experiences for both web and mobile
+          platforms. Currently, I'm focused on building Continous Intergration
+          Continuos Deployment(CICD) solutions for organizations.
+        </p>
+      </div>
+      <div class="content-social-box">
+        <ul>
+          <li>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container-xxl">
+      <div class="container-sm content-box">
+
+        <div class="content-box-flex">
+          <div>
+            <h1 class="mini-heading text-light">About me</h1>
+            <p class="--lead text-secondary pt-3">
+              Fast-forward to today, and I've had the privilege of working at an advertising agency, a start-up, a huge
+              corporation, and a student-led design studio. My main focus these days is building accessible, inclusive
+              products and digital experiences at Upstatement for a variety of clients.
+            </p>
+            <p class="--lead text-secondary pt-3">
+              I also recently launched a course that covers everything you need to build a web app with the Spotify API
+              using Node & React.
+            </p>
+            <p class="--lead text-secondary pt-3">
+              Here are a few technologies I've been working with recently: </p>
+
+            <!-- Skills section -->
+            <div class="content-skills-box mt-2">
+              <ul class="skills-list">
+                <li>Javascript (ES6+)</li>
+                <li>React</li>
+                <li>Django</li>
+              </ul>
+              <ul class="skills-list">
+                <li>Flask</li>
+                <li>FastAPI</li>
+                <li>WordPress</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Swiper -->
+
+          <div class="swiper mySwiper content-box-slide mt-5">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="assets/images/slider-img1.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="assets/images/slider-img1.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="assets/images/slider-img1.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="assets/images/slider-img1.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="assets/images/slider-img1.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="assets/images/slider-img1.jpg" alt=""></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-xxl">
+        <div class="container-sm content-work-box">
+          <div class="content-box-flex">
+            <div>
+              <!-- work-list -->
+            </div>
+
+            <!-- Accordion -->
+            <div class="swiper mySwiper content-box-slide mt-5">
+
+            </div>
+
+          </div>
+        </div>
+
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
 </html>
