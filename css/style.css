@@ -5,6 +5,7 @@
   --seconday: #a8b2d1;
   --light: #d9d9d9;
   --dark: #020c1b;
+  --grey: #233554;
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -27,8 +28,8 @@ body {
 .content-box {
   max-width: 850px;
 }
-content-work-box {
-  max-width: 500px;
+.content-work-box {
+  max-width: 700px;
 }
 .heading,
 .sub-heading {
@@ -48,7 +49,7 @@ content-work-box {
 }
 .content-social-box ul::after {
   content: " ";
-  width: 2px;
+  width: 1.5px;
   height: 80px;
   display: block;
   margin: 5px;
@@ -62,17 +63,19 @@ content-work-box {
   display: flex;
 }
 .mini-heading {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
-.horizontal-line {
+.mini-heading::after {
   content: " ";
-  width: 2px;
-  height: 200px;
+  width: 350px;
+  height: 1.5px;
   margin: 0 10px;
   display: inline-block;
   background-color: var(--seconday);
-  transform: rotate(90deg);
+  position: relative;
+  top: -5px;
+  left: 0px;
 }
 .content-skills-box {
   display: flex;
@@ -106,4 +109,58 @@ content-work-box {
   border-radius: 18px;
   width: 300px;
   height: 400px;
+}
+
+/* Work Experience Section */
+.work-experience {
+  margin-top: 100px;
+}
+
+.work {
+  list-style-type: none;
+  color: var(--seconday);
+  font-size: 1rem;
+  font-weight: 300;
+  padding-top: 15px;
+}
+
+.work-list::before {
+  content: " ";
+  width: 150px;
+  height: 1.5px;
+  display: inline-block;
+  position: relative;
+  margin-left: 0;
+  transform: rotate(90deg);
+  background-color: var(--seconday);
+}
+.project-card {
+  background-color: var(--grey);
+  border-bottom: 2px solid var(--light);
+  border-right: 2px solid var(--light);
+}
+.project-card img {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.project-card p {
+  font-size: 0.8rem;
+}
+
+.card1,
+.card3 {
+  border-radius: 0px 20px 0px 20px;
+}
+.card2 {
+  border-radius: 20px 0px 20px 0px;
+}
+
+.other-project {
+  margin-top: 80px;
+}
+.other-project-heading {
+  font-size: 1.3rem;
 }
