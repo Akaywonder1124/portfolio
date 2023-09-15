@@ -6,6 +6,7 @@
   --light: #d9d9d9;
   --dark: #020c1b;
   --grey: #233554;
+  --blue: #112240;
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -27,6 +28,9 @@ body {
 }
 .content-box {
   max-width: 850px;
+}
+.other-project-box {
+  max-width: 1000px;
 }
 .content-work-box {
   max-width: 700px;
@@ -163,4 +167,15 @@ body {
 }
 .other-project-heading {
   font-size: 1.3rem;
+}
+
+.other-project .card {
+  max-width: 300px;
+  background-color: var(--blue);
+}
+
+.card-icon {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
 }
