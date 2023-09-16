@@ -320,5 +320,6 @@ body {
   }
   .grid-3 {
     grid-template-columns: 1fr; /* Display as a single column on mobile */
+    grid-column: 1;
   }
 }
