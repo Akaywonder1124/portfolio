@@ -363,7 +363,4 @@ body {
   #work-list .work {
     margin-right: 10px; /* Add some horizontal spacing between items */
   }
-  .dynamic-accordion {
-    justify-self: center;
-  }
 }
