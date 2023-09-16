@@ -76,11 +76,10 @@ body {
 .content-box-flex {
   display: flex;
 }
-
 .content-work-flexbox {
   display: flex;
-  flex-wrap: wrap;
 }
+
 .mini-heading {
   font-size: 1.3rem;
 }
@@ -328,6 +327,10 @@ body {
     flex: 1; /* Full width for mobile */
     justify-self: center;
     margin-left: 30px;
+  }
+  .content-work-flexbox {
+    display: flex;
+    flex-wrap: wrap;
   }
   .other-project .grid-3 {
     grid-template-columns: 1fr; /* Display as a single column on mobile */

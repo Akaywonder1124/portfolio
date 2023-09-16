@@ -62,28 +62,55 @@ async function displayWork(name) {
   let div = document.createElement("div");
   div.classList.add("accordion");
   div.innerHTML = `
-              <h4 class="accordion-heading text-light">${workExperience.role} <span class="text-primary"> @${workExperience.company_name}</span>
-                <h6 class="date-of-work text-light small mt-2">${workExperience.date}</h6>
+              <h4 class="accordion-heading text-light">${
+                workExperience.role
+              } <span class="text-primary"> @${
+    workExperience.company_name
+  }</span>
+                <h6 class="date-of-work text-light small mt-2">${
+                  workExperience.date
+                }</h6>
               </h4>
 
               <!-- Accordion -->
               <div class="accordion accordion-flush pt-3" id="accordionFlushExample">
   
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                      Placeholder content for this accordion,
-                    </button>
-                  </h2>
-                  <div id="flush-collapseOne" class="accordion-collapse collapse"
-                    data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
-                      the
-                      <code>.accordion-flush</code> class. This is the first item's accordion body.
-                    </div>
-                  </div>
-                </div>
+               <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        ${workExperience.job_description[0].substring(0, 50)}
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        ${workExperience.job_description[0]}
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+       ${workExperience.job_description[1].substring(0, 50)}
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      ${workExperience.job_description[1]}
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        ${workExperience.job_description[2].substring(0, 50)}
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+${workExperience.job_description[2]} 
+    </div>
+    </div>
+  </div>
               </div>
 `;
   let accordion = document.querySelector(".dynamic-accordion");
