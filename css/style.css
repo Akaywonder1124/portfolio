@@ -361,6 +361,6 @@ body {
     flex-wrap: nowrap;
   }
   #work-list .work {
-    margin-right: 5px; /* Add some horizontal spacing between items */
+    margin-right: 10px; /* Add some horizontal spacing between items */
   }
 }
