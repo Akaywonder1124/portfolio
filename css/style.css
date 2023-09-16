@@ -72,6 +72,10 @@ body {
 
 .content-box-flex {
   display: flex;
+}
+
+.content-work-flexbox {
+  display: flex;
   flex-wrap: wrap;
 }
 .mini-heading {
@@ -310,6 +314,7 @@ body {
 
 @media screen and (max-width: 768px) {
   .content-box-flex {
+    flex-wrap: wrap;
     flex-direction: column; /* Stack items vertically for mobile */
   }
 
