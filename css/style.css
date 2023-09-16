@@ -334,4 +334,7 @@ body {
   .mini-heading::after {
     width: 100%;
   }
+  .work-experience {
+    margin: 100px auto;
+  }
 }
