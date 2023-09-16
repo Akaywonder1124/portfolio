@@ -72,6 +72,7 @@ body {
 
 .content-box-flex {
   display: flex;
+  flex-wrap: wrap;
 }
 .mini-heading {
   font-size: 1.3rem;
