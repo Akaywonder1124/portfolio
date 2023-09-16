@@ -140,7 +140,7 @@ body {
   margin: 200px auto;
 }
 
-.work-experience .content-box-flex {
+.work-experience .content-work-flexbox {
   gap: 100px;
 }
 .work {
