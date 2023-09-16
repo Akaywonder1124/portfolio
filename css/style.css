@@ -355,4 +355,12 @@ body {
   .content {
     margin-top: 50px;
   }
+  #work-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  #work-list .work {
+    margin-right: 5px; /* Add some horizontal spacing between items */
+  }
 }
