@@ -125,6 +125,7 @@ async function fetchData(name) {
 let card = document.querySelector(".other-project-box");
 card.addEventListener("mouseover", onWebCursor);
 document.addEventListener("mousemove", cursorFunc);
+document.addEventListener("DOMContentLoaded", displayWork("vivano"));
 // workBtn.addEventListener("click", workBtnClick);
 //typed animtion
 let typed = new Typed(".auto-type", {
