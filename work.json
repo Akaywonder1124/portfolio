@@ -1,0 +1,46 @@
+{
+  "vivano": {
+    "role": "WordPress Developer",
+    "company_name": "Vivano",
+    "date": "June 2023 - Aug 2023",
+    "job_description": [
+      "Converted an e-commerce UI design into a fully functional website.",
+      "Implemented a robust e-commerce system that streamlined the shopping experience.",
+      "Utilized various Woo-commerce plugins to achieve customized designs and features.",
+      "Integrated country-based pricing to enhance the user experience for customers around the world.",
+      "Optimized the website's performance using WP Rocket, resulting in improved loading times and overall user satisfaction."
+    ]
+  },
+  "redink": {
+    "role": "WordPress Developer",
+    "company_name": "RedInk",
+    "date": "Aug 2023 - Present",
+    "job_description": [
+      "Converted a UI design into a fully functional website for the Redink company",
+      "Utilized GSAP (GreenSock Animation Platform) JavaScript libraries to implement captivating and dynamic animations, enhancing the overall user experience.",
+      "Integrated MotionPage plugin to create engaging scroll-triggered effects, adding interactivity and visual interest to the website.",
+      "Optimized website performance and loading speed, resulting in a 35% decrease in bounce rate and a 20% increase in conversion rate using WP Rocket."
+    ]
+  },
+  "macgital": {
+    "role": "Frontend Developer",
+    "company_name": "Macgital",
+    "date": "July 2022 - Feb 2023",
+    "job_description": [
+      "Collaborated closely with the project manager to gather requirements and understand the company's unique objectives, ensuring alignment with their vision and business goals.",
+      "Customized WordPress theme and plugins to create visually appealing and highly functional website, incorporating the latest design trends and industry best practices.",
+      "Achieved seamless functionality, security, and optimal performance by conducting thorough testing, debugging, and addressing any issues or updates.",
+      "Collaborated closely with designers to transform static designs into dynamic, responsive WordPress website, enhancing user experiences and usability across devices, thereby improving the positive feedback received from end users."
+    ]
+  },
+  "7eternity": {
+    "role": "WordPress Developer",
+    "company_name": "7eternity",
+    "date": "Dec 2021 - June 2022",
+    "job_description": [
+      " Designed and developed captivating and user-friendly websites using WordPress and Elementor, ensured seamless integration of blockchain-related content and features into these websites.",
+      "Crafted a dedicated presale page, tailored to the needs of blockchain projects. Developed an intuitive interface to provide potential investors with comprehensive information and easy participation instructions.",
+      "Demonstrated expertise in blockchain technology by seamlessly integrating smart contracts into the backend of websites. This enabled secure and automated participation in presales and token sales, fostering transparency and trust among participants."
+    ]
+  }
+}
