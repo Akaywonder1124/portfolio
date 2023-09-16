@@ -322,6 +322,13 @@ body {
     grid-template-columns: 1fr; /* Display as a single column on mobile */
   }
   .other-project .grid-3 .card {
-    max-width: 500px;
+    max-width: 400px;
+  }
+  .project-card img {
+    width: 100%;
+    height: auto;
+  }
+  .mini-heading::after {
+    width: 100%;
   }
 }
