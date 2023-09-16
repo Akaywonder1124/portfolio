@@ -326,7 +326,7 @@ body {
   }
   .project-card img {
     width: 100%;
-    height: auto;
+    height: 50%;
   }
   .project-card .project-details {
     margin-top: 10%;
