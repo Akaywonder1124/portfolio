@@ -347,4 +347,7 @@ body {
   .contact-button {
     width: 100%;
   }
+  .content {
+    margin-top: 50px;
+  }
 }
