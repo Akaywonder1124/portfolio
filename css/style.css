@@ -10,6 +10,8 @@
 }
 body {
   font-family: "Poppins", sans-serif;
+  position: relative;
+  cursor: none;
 }
 
 .nav-link {
@@ -39,6 +41,11 @@ body {
 .sub-heading {
   font-size: 2.5rem;
 }
+
+.sub-heading .auto-type {
+  color: var(--primary);
+}
+
 .--lead {
   font-size: 1rem;
   max-width: 500px;
@@ -83,6 +90,7 @@ body {
 }
 .content-skills-box {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .skills-list {
@@ -97,19 +105,19 @@ body {
 }
 
 /* swiper slider */
-.swiper {
+.mySwiper {
   width: 500px;
   height: 400px;
 }
 
-.swiper-slide {
+.mySwiper .swiper-slide {
   width: 300px !important;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.swiper-slide img {
+.mySwiper .swiper-slide img {
   border-radius: 18px;
   width: 300px;
   height: 400px;
@@ -117,18 +125,24 @@ body {
 
 /* Work Experience Section */
 .work-experience {
-  margin-top: 100px;
+  margin: 100px auto;
 }
 
+.work-experience .content-box-flex {
+  gap: 100px;
+}
 .work {
   list-style-type: none;
   color: var(--seconday);
   font-size: 1rem;
   font-weight: 300;
-  padding-top: 15px;
+  padding-top: 20px;
 }
 
-.work-list::before {
+.accordion-heading {
+  padding-top: 20px;
+}
+/* .work-list::before {
   content: " ";
   width: 150px;
   height: 1.5px;
@@ -136,8 +150,7 @@ body {
   position: relative;
   margin-left: 0;
   transform: rotate(90deg);
-  background-color: var(--seconday);
-}
+  background-color: var(--seconday); }*/
 .project-card {
   background-color: var(--grey);
   border-bottom: 2px solid var(--light);
@@ -174,8 +187,96 @@ body {
   background-color: var(--blue);
 }
 
-.card-icon {
+.other-project .card-icon {
   display: flex;
   justify-content: space-between;
   padding: 20px;
+}
+
+.other-project .card p {
+  font-size: 0.8rem;
+}
+
+.other-project .card ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: start;
+  align-content: center;
+  font-size: 0.8rem;
+  color: var(--seconday);
+  padding-left: 1rem;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.other-project .card ul li:hover {
+  color: var(--primary);
+}
+.other-project .grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px 10px;
+}
+
+#contact .content-work-box {
+  margin-top: 100px;
+}
+#contact .content-work-box button {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+
+#contact .contact-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* cursor */
+#cursor {
+  position: fixed;
+  width: 15px;
+  height: 15px;
+  border-top: 3px solid var(--primary);
+  border-left: 3px solid var(--primary);
+  transform-origin: top;
+  transform: translate(-1px, 5px) rotate(15deg);
+  transition: transform 0.1s;
+  pointer-events: none;
+  filter: drop-shadow(0 0 5px var(--primary))
+    drop-shadow(0 0 15px var(--primary)) drop-shadow(0 0 35px var(--primary))
+    hue-rotate(5deg);
+}
+#cursor::before {
+  content: "";
+  top: 1px;
+  position: absolute;
+  width: 2.5px;
+  height: 25px;
+  background-color: var(--primary);
+  transform-origin: top;
+  transform: rotate(315deg);
+}
+.element {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: var(--primary);
+  pointer-events: none;
+  width: 5px;
+  height: 5px;
+  transition: 1s;
+  filter: drop-shadow(0 0 5px var(--primary))
+    drop-shadow(0 0 25px var(--primary)) hue-rotate(5deg);
+}
+
+/* Accordion */
+
+.accordion-button {
+  padding-right: 3px;
+  max-width: 100%;
+}
+
+.accordion-button::after {
+  transform: rotate(100deg);
 }

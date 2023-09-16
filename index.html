@@ -10,11 +10,12 @@
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js" async></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   <title>Ak</title>
 </head>
 
 <body class="bg-dark">
+  <div id="cursor"></div>
   <section class="--navbar bg-dark">
     <div class="container-xxl p-3">
       <nav class="navbar navbar-expand-lg">
@@ -33,16 +34,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#">About</a>
+                  <a class="nav-link" aria-current="page" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Experience</a>
+                  <a class="nav-link" href="#experience">Experience</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Work</a>
+                  <a class="nav-link" href="#work">Work</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="#contact">Contact</a>
                 </li>
                 <li class="nav-item">
                   <a href="#"><button class="btn btn-outline-success" type="button">
@@ -62,7 +63,7 @@
       <div class="container-sm content-box">
         <h1 class="heading text-light">Abdulakeem Asiru.</h1>
         <h1 class="sub-heading text-secondary">
-          I create solutions from coding.
+          I create solutions from <span class="auto-type"></span>
         </h1>
         <p class="--lead text-secondary pt-3">
           I'm a software engineer specializing in building (and occasionally
@@ -92,7 +93,7 @@
       </div>
     </div>
     <div class="container-xxl">
-      <div class="container-sm content-box">
+      <div class="container-sm content-box" id="about">
 
         <div class="content-box-flex">
           <div>
@@ -138,37 +139,89 @@
         </div>
       </div>
     </div>
-    <div class="container-xxl work-experience">
+    <div class="container-xxl work-experience" id="experience">
       <div class="container-sm content-work-box">
         <h1 class="mini-heading text-light">Where I have worked</h1>
         <div class="content-box-flex">
-          <div>
-            <!-- work-list -->
-            <div class="work-list">
-              <ul>
-                <li class="work">Vivano</li>
-                <li class="work">Macgital</li>
-                <li class="work">RedInk</li>
-                <li class="work">Fedview</li>
-              </ul>
+
+          <!-- work-list -->
+          <div class="work-list">
+            <ul>
+              <li class="work">Vivano</li>
+              <li class="work">Macgital</li>
+              <li class="work">RedInk</li>
+              <li class="work">Fedview</li>
+            </ul>
+          </div>
+          <!-- Accordion Heading-->
+          <div class="Accordion">
+            <h4 class="accordion-heading text-light">WordPress Developer <span class="text-primary"> @Vivano</span>
+              <h6 class="date-of-work text-light small mt-2">Jan 2020 - Present</h6>
+            </h4>
+
+            <!-- Accordion -->
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Placeholder content for this accordion,
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
+                    the
+                    <code>.accordion-flush</code> class. This is the first item's accordion body.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Placeholder content for this accordion, which
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
+                    the
+                    <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this
+                    being filled
+                    with some actual content.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Placeholder content for this accordion,
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
+                    the
+                    <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+                    happening
+                    here in terms of content, but just filling up the space to make it look, at least at first glance, a
+                    bit more
+                    representative of how this would look in a real-world application.
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-
-          <!-- Accordion -->
-          <div class="swiper mySwiper content-box-slide mt-5">
-
-          </div>
-
         </div>
       </div>
     </div>
-
     <div class="container-xxl">
       <div class="container-sm content-box">
 
         <div>
           <h1 class="mini-heading text-light mb-5">Some Things I've built</h1>
         </div>
+
 
         <!-- card -->
         <div class="project-card py-5 px-3 mt-3 card1">
@@ -187,6 +240,7 @@
             </div>
           </div>
         </div>
+
         <div class="project-card py-5 px-3 mt-3 card2">
           <div class="content-box-flex">
             <a href="#"><img src="assets/images/slider-img1.jpg" alt=""></a>
@@ -203,52 +257,148 @@
             </div>
           </div>
         </div>
-        <div class="project-card py-5 px-3 mt-3 card3">
-          <div class="content-box-flex">
-            <a href="#"><img src="assets/images/slider-img1.jpg" alt=""></a>
-            <div class="project-details ps-3">
-              <h6 class="text-primary">Featured Project</h6>
-              <h4 class="text-light pt-1">TeamCity CICD for maven Runners</h4>
-              <p class="project-description text-secondary pt-3">
-                A minimal, dark blue theme for VS Code, Sublime Text, Atom,
-                iTerm, and more. Available on Visual Studio
-                Marketplace, Package Control, Atom Package Manager, and npm.
-              </p>
-              <a href="#"><i class="fa-brands fa-github pe-3"></i></a>
-              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+        <!-- Other project -->
+        <div class="container-xxl other-project" id="work">
+          <div class="container-sm other-project-box">
+            <div>
+              <h1 class="other-project-heading text-light mb-2 text-center">Other Noteworthy Projects</h1>
+              <p class="text-center text-primary">View the archive</p>
+            </div>
+            <div class="grid-3 mt-5">
+              <div class="card">
+
+                <div class="card-icon">
+
+                  <a href="#"><i class="fa-brands fa-github"></i></a>
+                  <a href="#"><i class="fa-solid fa-arrow-up-right-from-square text-secondary"></i></a>
+
+                </div>
+                <h6 class="text-secondary p-3">WordPress Plugin for Algolia Intergration</h6>
+                <p class="text-primary ps-3 pe-1">Building a custom plugin from scratch using php</p>
+
+                <ul>
+                  <li>WordPress</li>
+                  <li>React</li>
+                  <li>Bootstrap</li>
+
+                </ul>
+              </div>
+              <div class="card">
+
+                <div class="card-icon">
+
+                  <a href="#"><i class="fa-brands fa-github"></i></a>
+                  <a href="#"><i class="fa-solid fa-arrow-up-right-from-square text-secondary"></i></a>
+
+                </div>
+                <h6 class="text-secondary p-3">WordPress Plugin for Algolia Intergration</h6>
+                <p class="text-primary ps-3 pe-1">Building a custom plugin from scratch using php</p>
+
+                <ul>
+                  <li>WordPress</li>
+                  <li>React</li>
+                  <li>Bootstrap</li>
+
+                </ul>
+              </div>
+              <div class="card">
+
+                <div class="card-icon">
+
+                  <a href="#"><i class="fa-brands fa-github"></i></a>
+                  <a href="#"><i class="fa-solid fa-arrow-up-right-from-square text-secondary"></i></a>
+
+                </div>
+                <h6 class="text-secondary p-3">WordPress Plugin for Algolia Intergration</h6>
+                <p class="text-primary ps-3 pe-1">Building a custom plugin from scratch using php</p>
+
+                <ul>
+                  <li>WordPress</li>
+                  <li>React</li>
+                  <li>Bootstrap</li>
+
+                </ul>
+              </div>
+              <div class="card">
+
+                <div class="card-icon">
+
+                  <a href="#"><i class="fa-brands fa-github"></i></a>
+                  <a href="#"><i class="fa-solid fa-arrow-up-right-from-square text-secondary"></i></a>
+
+                </div>
+                <h6 class="text-secondary p-3">WordPress Plugin for Algolia Intergration</h6>
+                <p class="text-primary ps-3 pe-1">Building a custom plugin from scratch using php</p>
+
+                <ul>
+                  <li>WordPress</li>
+                  <li>React</li>
+                  <li>Bootstrap</li>
+
+                </ul>
+              </div>
+              <div class="card">
+
+                <div class="card-icon">
+
+                  <a href="#"><i class="fa-brands fa-github"></i></a>
+                  <a href="#"><i class="fa-solid fa-arrow-up-right-from-square text-secondary"></i></a>
+
+                </div>
+                <h6 class="text-secondary p-3">WordPress Plugin for Algolia Intergration</h6>
+                <p class="text-primary ps-3 pe-1">Building a custom plugin from scratch using php</p>
+
+                <ul>
+                  <li>WordPress</li>
+                  <li>React</li>
+                  <li>Bootstrap</li>
+
+                </ul>
+              </div>
+              <div class="card">
+
+                <div class="card-icon">
+
+                  <a href="#"><i class="fa-brands fa-github"></i></a>
+                  <a href="#"><i class="fa-solid fa-arrow-up-right-from-square text-secondary"></i></a>
+
+                </div>
+                <h6 class="text-secondary p-3">WordPress Plugin for Algolia Intergration</h6>
+                <p class="text-primary ps-3 pe-1">Building a custom plugin from scratch using php</p>
+
+                <ul>
+                  <li>WordPress</li>
+                  <li>React</li>
+                  <li>Bootstrap</li>
+
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-
-    <!-- Other project -->
-    <div class="container-xxl other-project">
-      <div class="container-sm other-project-box">
-        <div>
-          <h1 class="other-project-heading text-light mb-2 text-center">Other Noteworthy Projects</h1>
-          <p class="text-center text-primary">View the archive</p>
-        </div>
-        <div class="grid-3">
-          <div class="card">
-
-            <div class="card-icon">
-
-              <a href="#"><i class="fa-brands fa-github"></i></a>
-              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square text-secondary"></i></a>
-
+        <div class="container-xxl" id="contact">
+          <div class="container-sm content-work-box">
+            <h3 class="text-center text-light">Get In Touch</h3>
+            <p class="text-center text-secondary small mt-5">Although I'm not currently looking for any new
+              opportunities, my
+              inbox
+              is always
+              open. Whether you have a
+              question or
+              just want to say hi, I'll try my best to get back to you!</p>
+            <div class="contact-button">
+              <button class="btn btn-success btn-lg col-6">Say Hello</button>
             </div>
-            <h6 class="text-secondary p-3">WordPress Plugin for Algolia Intergration</h6>
-            <p class="text-secondary">Building a custom plugin from scratch using php</p>
+
           </div>
         </div>
-      </div>
-    </div>
   </section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
     crossorigin="anonymous"></script>
-  <script src="js/script.js " async></script>
+  <script src="js/script.js" async></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </body>
 
 </html>
