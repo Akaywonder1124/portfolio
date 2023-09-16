@@ -316,6 +316,6 @@ body {
   .content-box-flex .swiper {
     flex: 1; /* Full width for mobile */
     justify-self: center;
-    margin-left: 40px;
+    margin-left: 30px;
   }
 }
