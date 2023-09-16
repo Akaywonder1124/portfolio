@@ -363,4 +363,7 @@ body {
   #work-list .work {
     margin-right: 10px; /* Add some horizontal spacing between items */
   }
+  .content-social-box {
+    display: none;
+  }
 }
