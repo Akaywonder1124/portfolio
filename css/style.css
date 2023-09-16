@@ -321,4 +321,7 @@ body {
   .other-project .grid-3 {
     grid-template-columns: 1fr; /* Display as a single column on mobile */
   }
+  .other-project .grid-3 .card {
+    max-width: 500px;
+  }
 }
