@@ -328,6 +328,9 @@ body {
     width: 100%;
     height: auto;
   }
+  .project-card .project-details {
+    margin-top: 20px;
+  }
   .mini-heading::after {
     width: 100%;
   }
