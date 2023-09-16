@@ -307,3 +307,14 @@ body {
 .active-item span {
   color: var(--light);
 }
+
+@media screen and (max-width: 768px) {
+  .content-box-flex {
+    flex-direction: column; /* Stack items vertically for mobile */
+  }
+
+  .flex-item {
+    flex: 1; /* Full width for mobile */
+    margin: 5px 0; /* Adjust spacing as needed */
+  }
+}
