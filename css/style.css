@@ -399,4 +399,8 @@ body {
   #cursor {
     display: none;
   }
+  .dynamic-accordion {
+    margin-top: -30%;
+    padding: 0%;
+  }
 }
