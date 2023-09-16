@@ -313,8 +313,9 @@ body {
     flex-direction: column; /* Stack items vertically for mobile */
   }
 
-  .flex-item {
+  .content-box-flex .swiper {
     flex: 1; /* Full width for mobile */
-    margin: 5px 0; /* Adjust spacing as needed */
+    justify-self: center;
+    margin-left: 50px;
   }
 }
