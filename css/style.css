@@ -338,4 +338,13 @@ body {
   .work-experience {
     margin: 50px auto;
   }
+  #contact h3 {
+    font-size: 20px;
+  }
+  #contact p {
+    font-size: 12px;
+  }
+  .contact-button {
+    width: 100%;
+  }
 }
