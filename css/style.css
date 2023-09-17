@@ -156,15 +156,7 @@ body {
 .accordion-heading {
   padding-top: 20px;
 }
-/* .work-list::before {
-  content: " ";
-  width: 150px;
-  height: 1.5px;
-  display: inline-block;
-  position: relative;
-  margin-left: 0;
-  transform: rotate(90deg);
-  background-color: var(--seconday); }*/
+
 .project-card {
   background-color: var(--grey);
   border-bottom: 2px solid var(--light);
