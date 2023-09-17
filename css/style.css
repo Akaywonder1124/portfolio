@@ -28,7 +28,7 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   filter: drop-shadow(0 0 5px var(--primary))
     drop-shadow(0 0 20px var(--primary)) drop-shadow(0 0 35px var(--primary))
-    hue-rotate(50deg);
+    hue-rotate(5deg);
 }
 /* Content */
 
