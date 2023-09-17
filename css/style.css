@@ -401,7 +401,7 @@ body {
   }
   .dynamic-accordion {
     margin-top: -100px;
-    padding: 0%;
+    margin-left: 20px;
   }
   #about .--lead {
     font-size: 14px;
