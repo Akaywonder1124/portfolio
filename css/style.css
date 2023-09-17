@@ -400,7 +400,7 @@ body {
     display: none;
   }
   .dynamic-accordion {
-    margin-top: -25%;
+    margin-top: -100px;
     padding: 0%;
   }
 }

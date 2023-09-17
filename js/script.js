@@ -59,6 +59,7 @@ function workBtnClick(workBtn) {
 
 async function displayWork(name) {
   let workExperience = await fetchData(name);
+  document.querySelector(".dynamic-accordion").innerHTML = "";
   let div = document.createElement("div");
   div.classList.add("accordion");
   div.innerHTML = `
