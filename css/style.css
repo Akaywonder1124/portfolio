@@ -403,4 +403,7 @@ body {
     margin-top: -100px;
     padding: 0%;
   }
+  #about .--lead {
+    font-size: 14px;
+  }
 }
