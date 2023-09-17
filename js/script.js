@@ -35,7 +35,7 @@ function cursorFunc(e) {
 }
 
 function randomText() {
-  let text = "qwertyuiplkjhgfdsazxcvbnm1234567890@#$%^".split("");
+  let text = "oc.,ocococococ".split("");
   let letter = text[Math.floor(Math.random() * text.length)];
   return letter;
 }
@@ -46,11 +46,21 @@ function onWebCursor() {
 }
 
 let workBtncollection = document.querySelectorAll(".work");
+
 workBtncollection.forEach(function (item) {
   workBtnClick(item);
+  item.classList.remove("active-item");
 });
 function workBtnClick(workBtn) {
   workBtn.addEventListener("click", () => {
+    // Remove the "active" class from all items
+    workBtncollection.forEach((item) => {
+      item.classList.remove("active-item");
+    });
+
+    // Add the "active" class to the clicked item
+    workBtn.classList.add("active-item");
+
     let btnText = workBtn.textContent;
     let companyName = btnText.toLowerCase();
     displayWork(companyName);
@@ -134,6 +144,9 @@ let card = document.querySelector(".other-project-box");
 card.addEventListener("mouseover", onWebCursor);
 document.addEventListener("mousemove", cursorFunc);
 document.addEventListener("DOMContentLoaded", displayWork(getFistJob()));
+document.addEventListener("DOMContentLoaded", () => {
+  workBtncollection[0].classList.add("active-item");
+});
 
 //typed animtion
 let typed = new Typed(".auto-type", {

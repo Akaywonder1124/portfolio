@@ -301,16 +301,13 @@ body {
 
 .active-item {
   border-bottom: 3px solid var(--primary);
+  color: var(--light);
   border-radius: 10px;
   filter: drop-shadow(0 0 15px var(--primary))
     drop-shadow(0 0 35px var(--primary)) hue-rotate(5deg);
 }
 .work:hover {
   transform: scale(1.1);
-}
-
-.active-item span {
-  color: var(--light);
 }
 
 .spacer {
