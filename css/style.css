@@ -343,7 +343,7 @@ body {
     margin-top: 10%;
   }
   .mini-heading::after {
-    width: 100%;
+    width: 50%;
   }
   .work-experience {
     margin: 50px auto;
