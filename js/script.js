@@ -46,6 +46,8 @@ function onWebCursor() {
 }
 
 let workBtncollection = document.querySelectorAll(".work");
+// Add the "active-item" class to the first item on page load
+workBtncollection[0].classList.add("active-item");
 
 workBtncollection.forEach(function (item) {
   workBtnClick(item);
@@ -144,9 +146,6 @@ let card = document.querySelector(".other-project-box");
 card.addEventListener("mouseover", onWebCursor);
 document.addEventListener("mousemove", cursorFunc);
 document.addEventListener("DOMContentLoaded", displayWork(getFistJob()));
-document.addEventListener("DOMContentLoaded", () => {
-  workBtncollection[0].classList.add("active-item");
-});
 
 //typed animtion
 let typed = new Typed(".auto-type", {
