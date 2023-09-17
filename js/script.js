@@ -123,11 +123,18 @@ async function fetchData(name) {
   return data[name];
 }
 
+function getFistJob() {
+  let firstWork =
+    document.querySelector("#work-list").firstElementChild.textContent;
+  let firstWorkText = firstWork.toLowerCase();
+  return firstWorkText;
+}
+
 let card = document.querySelector(".other-project-box");
 card.addEventListener("mouseover", onWebCursor);
 document.addEventListener("mousemove", cursorFunc);
-document.addEventListener("DOMContentLoaded", displayWork("vivano"));
-// workBtn.addEventListener("click", workBtnClick);
+document.addEventListener("DOMContentLoaded", displayWork(getFistJob()));
+
 //typed animtion
 let typed = new Typed(".auto-type", {
   strings: ["Coding", "Passion", "Experience"],

@@ -301,7 +301,6 @@ body {
 
 .active-item {
   border-bottom: 3px solid var(--primary);
-  padding-left: 5px;
   border-radius: 10px;
   filter: drop-shadow(0 0 15px var(--primary))
     drop-shadow(0 0 35px var(--primary)) hue-rotate(5deg);
