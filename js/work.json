@@ -53,9 +53,9 @@
     "company_name": "Fedview",
     "date": "Dec 2021 - June 2022",
     "job_description": [
-      " Designed and developed captivating and user-friendly websites using WordPress and Elementor, ensured seamless integration of blockchain-related content and features into these websites.",
-      "Crafted a dedicated presale page, tailored to the needs of blockchain projects. Developed an intuitive interface to provide potential investors with comprehensive information and easy participation instructions.",
-      "Demonstrated expertise in blockchain technology by seamlessly integrating smart contracts into the backend of websites. This enabled secure and automated participation in presales and token sales, fostering transparency and trust among participants."
+      "Made strategic decisions about the website's layout, structure, and navigation, meticulously crafting each element to ensure a seamless and intuitive user experience. I leveraged my expertise to design user-friendly interfaces that guided visitors effortlessly through the content, fostering engagement and satisfaction",
+      "Collaborated closely with the backend development team to ensure seamless integration between the WordPress frontend and the FastAPI backend.",
+      "Optimized website performance and loading speed, resulting in a 35% decrease in bounce rate and a 20% increase in conversion rate using WP Rocket."
     ]
   }
 }
