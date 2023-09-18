@@ -75,9 +75,9 @@ async function displayWork(name) {
   div.innerHTML = `
               <h4 class="accordion-heading text-light">${
                 workExperience.role
-              } <span class="text-primary"> @${
-    workExperience.company_name
-  }</span>
+              } <a href=${
+    workExperience.website
+  }><span class="text-primary"> @${workExperience.company_name}</span></a>
                 <h6 class="date-of-work text-light small mt-2">${
                   workExperience.date
                 }</h6>

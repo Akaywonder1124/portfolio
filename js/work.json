@@ -1,6 +1,7 @@
 {
   "vivano": {
     "role": "WordPress Developer",
+    "website": "https://vivano.com.ng/",
     "company_name": "Vivano",
     "date": "June 2023 - Aug 2023",
     "job_description": [
@@ -13,6 +14,7 @@
   },
   "redink": {
     "role": "WordPress Developer",
+    "website": "#",
     "company_name": "RedInk",
     "date": "Aug 2023 - Present",
     "job_description": [
@@ -24,6 +26,7 @@
   },
   "macgital": {
     "role": "Frontend Developer",
+    "website": "https://macgital.com/",
     "company_name": "Macgital",
     "date": "July 2022 - Feb 2023",
     "job_description": [
@@ -35,6 +38,7 @@
   },
   "7eternity": {
     "role": "WordPress Developer",
+    "website": " http://7eternity.ca/",
     "company_name": "7eternity",
     "date": "Dec 2021 - June 2022",
     "job_description": [
@@ -45,6 +49,7 @@
   },
   "fedview": {
     "role": "WordPress Developer",
+    "website": "https://fedview.ai/",
     "company_name": "Fedview",
     "date": "Dec 2021 - June 2022",
     "job_description": [
