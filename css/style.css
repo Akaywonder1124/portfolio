@@ -60,9 +60,14 @@ body {
 
 .--lead {
   font-size: 1rem;
-  max-width: 500px;
+  max-width: 550px;
+  line-height: 2rem;
 }
 
+.content-social-box {
+  position: fixed;
+  top: 50%;
+}
 .content-social-box ul li {
   list-style-type: none;
 }
