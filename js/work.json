@@ -1,15 +1,26 @@
 {
+  "edemx": {
+    "role": "WordPress Developer",
+    "website": "https://edemxenergy.com/",
+    "company_name": "Edemx",
+    "date": "Sep 2023 - Dec 2023",
+    "job_description": [
+      "Transformed a Figma UI into an impressive WordPress website, resulting in a captivating online platform that effectively showcase Edemx Energy International Limited's services and expertise",
+      "Ensured top-notch performance by integrating tailored JavaScript functionalities, resulting in a 15% improvement in site loading speed and a 20% increase in overall site responsiveness, which improves user experience",
+      " Implemented SEO strategies and optimizations that resulted in a remarkable 50% surge in organic traffic within two months.",
+      " Crafted and sustained custom widgets for showcasing dynamic content on websites, ultimately driving a 50% increase in page views, enhancing user engagement and interaction"
+    ]
+  },
   "vivano": {
     "role": "WordPress Developer",
     "website": "https://vivano.com.ng/",
     "company_name": "Vivano",
-    "date": "Feb 2023 - Present",
+    "date": "Feb 2023 - Aug 2023",
     "job_description": [
-      "Transformed a meticulously crafted e-commerce user interface (UI) design into a highly responsive and feature-rich website. This involved taking the visual concept and translating it into a fully functional online store, complete with seamless product browsing, an efficient shopping cart system, secure payment processing, and intuitive user interactions.",
-      "Executed the development of a robust e-commerce system, significantly enhancing the overall shopping experience for users. This comprehensive system not only streamlined the entire process but also introduced innovative features that simplified product discovery, facilitated secure transactions, and provided personalized recommendations.",
-      "Utilized various Woo-commerce plugins to achieve customized designs and features.",
-      "Integrated country-based pricing to enhance the user experience for customers around the world.",
-      "Optimized the website's performance using WP Rocket, resulting in improved loading times and overall user satisfaction."
+      "Built and maintained custom widgets to display dynamic content on websites, resulting in a 30% increase in page views, leading to an increase in user engagement and interaction.",
+      "Developed and implemented custom themes that enhanced the user experience, resulting in a 50% increase in user engagement.",
+      "Utilized various WooCommerce plugins to achieve customized designs and features, enhancing product listings, cart functionality, and checkout processes, contributing to a more user-friendly and conversion-focused website.",
+      " Integrated country-based pricing to enhance the user experience for customers around the world, providing tailored shopping experiences and improving global customer retention."
     ]
   },
   "redink": {
@@ -30,32 +41,36 @@
     "company_name": "Macgital",
     "date": "Apr 2021 - Jun 2022",
     "job_description": [
-      "Collaborated closely with the project manager to gather requirements and understand the company's unique objectives, ensuring alignment with their vision and business goals.",
-      "Customized WordPress theme and plugins to create visually appealing and highly functional website, incorporating the latest design trends and industry best practices.",
-      "Achieved seamless functionality, security, and optimal performance by conducting thorough testing, debugging, and addressing any issues or updates.",
-      "Collaborated closely with designers to transform static designs into dynamic, responsive WordPress website, enhancing user experiences and usability across devices, thereby improving the positive feedback received from end users."
-    ]
-  },
-  "7eternity": {
-    "role": "WordPress Developer",
-    "website": " http://7eternity.ca/",
-    "company_name": "7eternity",
-    "date": "Dec 2021 - June 2022",
-    "job_description": [
-      " Designed and developed captivating and user-friendly websites using WordPress and Elementor, ensured seamless integration of blockchain-related content and features into these websites.",
-      "Crafted a dedicated presale page, tailored to the needs of blockchain projects. Developed an intuitive interface to provide potential investors with comprehensive information and easy participation instructions.",
-      "Demonstrated expertise in blockchain technology by seamlessly integrating smart contracts into the backend of websites. This enabled secure and automated participation in presales and token sales, fostering transparency and trust among participants."
+      "Led the development of 4 responsive web applications using HTML, CSS, and JavaScript, resulting in a 25% increase in user engagement and a 15% decrease in loading time.",
+      "Collaborated with cross-functional teams on 2 React. js-based projects, implementing complex user interfaces and achieving a 40% improvement in performance.",
+      "Conducted code reviews, identifying and rectifying 70% of coding issues, resulting in an overall 30% improvement in application stability.",
+      " Optimized a specific feature for mobile devices, leading to a 20% increase in mobile traffic and user retention",
+      " Introduced and integrated a performance monitoring tool related to React.js, which improved development efficiency by 25% in time saved."
     ]
   },
   "finquire": {
-    "role": "WordPress Developer",
+    "role": "Frontend Developer",
     "website": "https://fedview.ai/",
     "company_name": "Finquire",
     "date": "Jun 2022 - Dec 2022",
     "job_description": [
-      "Made strategic decisions about the website's layout, structure, and navigation, meticulously crafting each element to ensure a seamless and intuitive user experience. I leveraged my expertise to design user-friendly interfaces that guided visitors effortlessly through the content, fostering engagement and satisfaction",
-      "Collaborated closely with the backend development team to ensure seamless integration between the WordPress frontend and the FastAPI backend.",
-      "Optimized website performance and loading speed, resulting in a 35% decrease in bounce rate and a 20% increase in conversion rate using WP Rocket."
+      "Implemented user-friendly and intuitive interfaces for users to interact with the AI-powered features of the MVP, contributing to enhanced user engagement and satisfaction.",
+      "Effectively hosted and managed the WordPress website on an Amazon EC2 instance within the AWS environment, resulting in streamlined operations and improved website performance. Additionally, this facilitated enhanced scalability and reliability, ensuring a seamless user experience.",
+      "Proficiently utilized Linux commands and tools (e.g., SSH via PuTTY) to configure and maintain the EC2 instance, ensuring seamless website performance and security.",
+      " Implemented and configured the Uncomplicated Firewall (UFW) to enhance server security, effectively mitigating potential threats and ensuring a robust hosting environment."
+    ]
+  },
+
+  "7eternity": {
+    "role": "WordPress Developer",
+    "website": " http://7eternity.ca/",
+    "company_name": "7eternity",
+    "date": "Jun 2020 - Mar 2021",
+    "job_description": [
+      "Designed and developed captivating and user-friendly websites using WordPress and Elementor, ensuring a seamless integration of blockchain-related content and features into these websites, resulting in a visually appealing and technologically advanced online presence for clients.",
+      "Crafted dedicated presale pages tailored to the unique needs of blockchain projects. These pages featured an intuitive interface providing potential investors with comprehensive information and easy participation instructions, resulting in a 25% increase in investor engagements.",
+      "Demonstrated expertise in blockchain technology by seamlessly integrating smart contracts into the backend of websites. This innovation enabled secure and automated participation in presales and token sales, fostering transparency and trust among participants and reducing manual intervention by 30%.",
+      " Ensured proper communication and feedback management across product stakeholders, resulting in the elimination of wastage of resources due to vague communication."
     ]
   }
 }
